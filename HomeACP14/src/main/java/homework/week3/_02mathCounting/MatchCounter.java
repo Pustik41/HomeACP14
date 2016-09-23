@@ -43,6 +43,15 @@ public class MatchCounter {
                 count++;
             }});
 
+        service.shutdown();
+        while (service.isTerminated()){
+            try {
+                service.awaitTermination(1, TimeUnit.SECONDS);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+
         return count;
     }
 }
