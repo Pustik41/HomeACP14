@@ -1,4 +1,4 @@
-package homework.week3._01mathCounting;
+package homework.week3.math_counting;
 
 import java.io.File;
 import java.util.Scanner;

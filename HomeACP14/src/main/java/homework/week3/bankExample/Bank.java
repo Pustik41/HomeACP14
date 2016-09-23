@@ -11,10 +11,13 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 public class Bank {
 
     private final double[] accounts;
-    private final ReentrantReadWriteLock rwLock = new ReentrantReadWriteLock(); //new ReentrantLock(true);
-    private Condition transferCondition  = rwLock.writeLock().newCondition();
+    private final ReentrantReadWriteLock rwLock ;
+    private Condition transferCondition ;
 
     public Bank(int n, double initialBalance) {
+
+        rwLock = new ReentrantReadWriteLock();
+        transferCondition = rwLock.writeLock().newCondition();
         accounts = new double[n];
         for (int i = 0; i < accounts.length; i++){
             accounts[i] = initialBalance;
@@ -38,23 +41,27 @@ public class Bank {
             System.out.printf(" %10.2f from %d to %d", amount, from, to);
             accounts[to] += amount;
 
-            rwLock.readLock().lock();
-
+            System.out.printf(" Total Balance: %10.2f%n", getTotalBalance());
             transferCondition.signalAll();
         } finally {
             rwLock.writeLock().unlock();
         }
 
-        System.out.printf(" Total Balance: %10.2f%n", getTotalBalance());
-        rwLock.readLock().unlock();
     }
 
     private double getTotalBalance() {
-        double sum = 0;
-        for (double a: accounts){
-            sum += a;
+        try {
+
+            rwLock.readLock().lock();
+
+            double sum = 0;
+            for (double a : accounts) {
+                sum += a;
+            }
+            return sum;
+        }finally {
+            rwLock.readLock().unlock();
         }
-        return sum;
 
     }
 
