@@ -50,25 +50,25 @@ CREATE TABLE students_progress(
 
 --default values for tests
 
-INSERT INTO groups(name_group) VALUES('IAP101');
-INSERT INTO groups(name_group) VALUES('IKIT101');
+INSERT INTO groups(group_name) VALUES('IAP101');
+INSERT INTO groups(group_name) VALUES('IKIT101');
 
-INSERT INTO students(firstname, lastname, group_id) VALUES('Alex', 'Browko', 1);
-INSERT INTO students(firstname, lastname, group_id) VALUES('Dima', 'Vasiliv', 2);
-INSERT INTO students(firstname, lastname, group_id) VALUES('Oleg', 'Vorona', 2);
-INSERT INTO students(firstname, lastname, group_id) VALUES('Katja', 'Kirko', 1);
+INSERT INTO students(first_name, last_name, group_id) VALUES('Alex', 'Browko', 1);
+INSERT INTO students(first_name, last_name, group_id) VALUES('Dima', 'Vasiliv', 2);
+INSERT INTO students(first_name, last_name, group_id) VALUES('Oleg', 'Vorona', 2);
+INSERT INTO students(first_name, last_name, group_id) VALUES('Katja', 'Kirko', 1);
 
-INSERT INTO subjects(name, description) VALUES('Math', 'Technical');
-INSERT INTO subjects(name, description) VALUES('Eanglish', 'Humanities');
-INSERT INTO subjects(name, description) VALUES('History', 'Humanities');
-INSERT INTO subjects(name, description) VALUES('Programming', 'Technical');
-INSERT INTO subjects(name, description) VALUES('Construction', 'Technical');
+INSERT INTO subjects(subject_name, description) VALUES('Math', 'Technical');
+INSERT INTO subjects(subject_name, description) VALUES('Eanglish', 'Humanities');
+INSERT INTO subjects(subject_name, description) VALUES('History', 'Humanities');
+INSERT INTO subjects(subject_name, description) VALUES('Programming', 'Technical');
+INSERT INTO subjects(subject_name, description) VALUES('Construction', 'Technical');
 
-INSERT INTO teachers(firstname, lastname, subject_id, experience) VALUES('Irina', 'Holovko', 1, 12);
-INSERT INTO teachers(firstname, lastname, subject_id, experience) VALUES('Igor', 'Voevoda', 3, 21);
-INSERT INTO teachers(firstname, lastname, subject_id, experience) VALUES('Lidia', 'Ivanova', 2, 18);
-INSERT INTO teachers(firstname, lastname, subject_id, experience) VALUES('Kolja', 'Barkar', 4, 25);
-INSERT INTO teachers(firstname, lastname, subject_id, experience) VALUES('Pasha', 'Stepanenko', 5, 34);
+INSERT INTO teachers(first_name, last_name, subject_id, experience) VALUES('Irina', 'Holovko', 1, 12);
+INSERT INTO teachers(first_name, last_name, subject_id, experience) VALUES('Igor', 'Voevoda', 3, 21);
+INSERT INTO teachers(first_name, last_name, subject_id, experience) VALUES('Lidia', 'Ivanova', 2, 18);
+INSERT INTO teachers(first_name, last_name, subject_id, experience) VALUES('Kolja', 'Barkar', 4, 25);
+INSERT INTO teachers(first_name, last_name, subject_id, experience) VALUES('Pasha', 'Stepanenko', 5, 34);
 
 INSERT INTO group_subjects(subject_id, group_id) VALUES(1, 1);
 INSERT INTO group_subjects(subject_id, group_id) VALUES(1, 2);
@@ -79,22 +79,21 @@ INSERT INTO group_subjects(subject_id, group_id) VALUES(3, 2);
 INSERT INTO group_subjects(subject_id, group_id) VALUES(4, 2);
 INSERT INTO group_subjects(subject_id, group_id) VALUES(5, 1);
 
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(1, 1, 87);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(1, 2, 88);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(1, 3, 76);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(1, 5, 90);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(2, 1, 87);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(2, 2, 88);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(2, 3, 91);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(2, 4, 92);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(3, 1, 78);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(3, 2, 74);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(3, 3, 65);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(3, 4, 89);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(4, 1, 90);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(4, 2, 76);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(4, 3, 82);
-INSERT INTO students_progress(student_id, subject_id, progress) VALUES(4, 5, 91);
-
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(1, 1, 87);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(1, 2, 88);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(1, 3, 76);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(1, 5, 90);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(2, 1, 87);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(2, 2, 88);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(2, 3, 91);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(2, 4, 92);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(3, 1, 78);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(3, 2, 74);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(3, 3, 65);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(3, 4, 89);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(4, 1, 90);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(4, 2, 76);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(4, 3, 82);
+INSERT INTO student_progress(student_id, subject_id, mark) VALUES(4, 5, 91);
 
 
