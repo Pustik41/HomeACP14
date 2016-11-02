@@ -17,7 +17,7 @@ import java.util.List;
  */
 public class DownloadFileByLink {
 
-    public static final String DESTENATION_PATH = "E:\\Java\\Projects\\HomeACP14\\src\\main\\resourсes\\home\\week2\\";
+    public static final String DESTENATION_PATH = "E:\\Java\\Projects\\HomeACP14\\src\\main\\resourсes\\home\\week3\\";
 
     public static void main(String[] args) {
         String link = "http://www.ex.ua/599715401234";

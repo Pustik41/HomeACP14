@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <bean id="dao" class="week8.ioc.GeneralDao">
+        <property name="name" value="beanName"/>
+        <property name="limit" value="23"/>
+        <property name="count" value="111"/>
+    </bean>
+
+    <bean id="service" class="week8.ioc.GeneralService">
+        <constructor-arg name="dao" ref="dao"/>
+    </bean>
+
+    <bean id="view" class="week8.ioc.View">
+        <property name="service" ref="service"/>
+    </bean>
+
+</beans>

@@ -15,7 +15,7 @@ import javax.persistence.Persistence;
 import javax.persistence.criteria.CriteriaBuilder;
 import java.util.List;
 
-// View -> Service, Manager, Controller(business logic)->DAO
+// view -> Service, Manager, Controller(business logic)->DAO
 public class DirectorService {
 
     private GroupDao groupDao;

@@ -23,7 +23,6 @@ public class FileSearchThread implements Callable{
     public FileSearchThread(File root, String keyWord, ExecutorService service) {
         this.root = root;
         this.keyWord = keyWord;
-        count = 0;
         this.service = service;
         futureTasks = new ArrayList<>();
     }
@@ -34,6 +33,7 @@ public class FileSearchThread implements Callable{
     }
 
     private int searshFile(File root){
+        count = 0;
 
         File[] files = root.listFiles();
 

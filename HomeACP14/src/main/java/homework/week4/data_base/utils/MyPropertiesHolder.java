@@ -1,9 +1,11 @@
-package utils;
+package homework.week4.data_base.utils;
 
 import java.io.IOException;
 import java.util.Properties;
 
-
+/**
+ * Created by Котято on 20.09.2016.
+ */
 public class MyPropertiesHolder {
 
     private static final Properties PROP = init();
@@ -13,7 +15,7 @@ public class MyPropertiesHolder {
 
         try {
             properties.load(MyPropertiesHolder.class
-                    .getResourceAsStream("/db.properties"));
+                    .getResourceAsStream("/home/sql/db.properties"));
         } catch (IOException e) {
             e.printStackTrace();
         }
