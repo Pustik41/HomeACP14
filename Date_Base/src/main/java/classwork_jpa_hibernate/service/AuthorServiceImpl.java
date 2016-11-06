@@ -10,6 +10,7 @@ import java.util.List;
 /**
  * Created by Котято on 02.11.2016.
  */
+
 public class AuthorServiceImpl implements AuthorService {
 
     @ForInject

@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f71b401-2cf2-43f4-8445-5505ef426aec" name="Default" comment="TODO: Finish Student and Tests">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/ioc/DependencyInjector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/ioc/ForInject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/ioc/ServiceLocator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/test/SisttInjector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/test/TestAuthorService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/validator/Validator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/View.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8/test/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resourсes/ioc/app-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resourсes/ioc/context.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/db/InfoAbout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/db/UniversityDateBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/models/Group.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/models/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/models/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/models/Subject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/models/Teacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/utils/ConnectionFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/resourсes/home/sql/SQL_requests.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/resourсes/home/sql/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/resourсes/home/week3/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Threads/src/main/java/ThreadsIntro/_01intro/ThreadsIntro.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Threads/src/main/java/ThreadsIntro/_02join/_02ThreadJoin.java" />
+    <list default="true" id="0f71b401-2cf2-43f4-8445-5505ef426aec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/Dao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/SecondDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/Service.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8/test/InitAnnotationContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resourсes/ioc/app-xml-annot-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/classwork/TestAnnotXmlInitContext.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Date_Base.iml" afterPath="$PROJECT_DIR$/Date_Base.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/data_base/service/DirectorService.java" afterPath="$PROJECT_DIR$/src/main/java/data_base/service/DirectorService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralDao.java" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralService.java" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week8/ioc/View.java" afterPath="$PROJECT_DIR$/src/main/java/week8/ioc/View.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week8/test/Test.java" afterPath="$PROJECT_DIR$/src/main/java/week8/test/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/.gitignore" afterPath="$PROJECT_DIR$/../HomeACP14/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/pom.xml" afterPath="$PROJECT_DIR$/../HomeACP14/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/convertor/RunConvertor.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/convertor/RunConvertor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/convertor/model/Address.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/convertor/model/Address.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/convertor/model/User.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/convertor/model/User.java" />
@@ -44,10 +24,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/download_file/utils/NetDownload.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/download_file/utils/NetDownload.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/download_file/utils/ParserHTML.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/download_file/utils/ParserHTML.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/server_client/server/ClientServer.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week2/server_client/server/ClientServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week3/math_counting/utils/FileSearchThread.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week3/math_counting/utils/FileSearchThread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/test/java/homework/week2/convertor/ConvertorImplTest.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/test/java/homework/week2/convertor/ConvertorImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HomeACP14/src/test/java/homework/week2/download_file/ParserHTMLTest.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/test/java/homework/week2/download_file/ParserHTMLTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/utils/MyPropertiesHolder.java" afterPath="$PROJECT_DIR$/../HomeACP14/src/main/java/homework/week4/data_base/utils/MyPropertiesHolder.java" />
     </list>
     <ignored path="Date_Base.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,18 +50,36 @@
       <file leaf-file-name="app-context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resourсes/ioc/app-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="184">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecondDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/SecondDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week8/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+            <state relative-caret-position="266">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,15 +90,61 @@
       <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="80">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAnnotXmlInitContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/classwork/TestAnnotXmlInitContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitAnnotationContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week8/test/InitAnnotationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-xml-annot-context.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resourсes/ioc/app-xml-annot-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,12 +152,16 @@
       <file leaf-file-name="GeneralService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/GeneralService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="46">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding>
-                <element signature="e#196#197#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,22 +170,12 @@
       <file leaf-file-name="GeneralDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/GeneralDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,10 +186,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="AnnotationType" />
         <option value="XSLT Stylesheet" />
+        <option value="Interface" />
         <option value="Spring" />
         <option value="Class" />
       </list>
@@ -170,14 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/data_base/db/SubjectDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/data_base/db/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/data_base/db/TeacherDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/data_base_hand/db/SubjectDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/data_base_hand/db/GroupDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/data_base_hand/db/StudentDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/data_base_hand/db/TeacherDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/data_base/utils/My.java" />
         <option value="$PROJECT_DIR$/src/main/java/data_base/utils/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/data_base/db/GroupDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/model/Author.java" />
@@ -211,16 +239,24 @@
         <option value="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/validator/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/ioc/ForInject.java" />
         <option value="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/ioc/DependencyInjector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/test/SisttInjector.java" />
         <option value="$PROJECT_DIR$/src/main/resourсes/ioc/context.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralServise.java" />
         <option value="$PROJECT_DIR$/src/main/java/week8/ioc/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week8/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/View.java" />
         <option value="$PROJECT_DIR$/src/main/resourсes/ioc/app-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/Dao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/InitAnnotationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/SecondDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/GeneralService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/test/InitAnnotationContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week8/ioc/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/classwork/TestAnnotXmlInitContext.java" />
+        <option value="$PROJECT_DIR$/src/main/resourсes/ioc/app-xml-annot-context.xml" />
       </list>
     </option>
   </component>
@@ -240,9 +276,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="x" value="637" />
+    <option name="width" value="734" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -269,7 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -300,6 +335,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classwork" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -485,8 +572,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classwork_jpa_hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Date_Base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classwork_jpa_hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -521,27 +669,7 @@
       <recent name="classwork_jpa_hibernate" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
-    <configuration default="false" name="TestDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="classwork_jpa_hibernate.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="classwork_jpa_hibernate.test.TestDao" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Date_Base" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.InitAnnotationContext">
     <configuration default="false" name="TestRelations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -610,6 +738,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="week8.test.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Date_Base" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InitAnnotationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="week8.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="week8.test.InitAnnotationContext" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -889,19 +1037,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestDao" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestRelations" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestGetAddressFetchType" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestRelations" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestGetAddressFetchType" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InitAnnotationContext" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestGetAddressFetchType" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestRelations" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestDao" />
+        <item index="0" class="java.lang.String" itemvalue="Application.InitAnnotationContext" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestGetAddressFetchType" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestRelations" />
       </list>
     </recent_temporary>
   </component>
@@ -933,7 +1081,14 @@
       <option name="project" value="LOCAL" />
       <updated>1476638552055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SPring">
+      <created>1478105790928</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478105790928</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -969,7 +1124,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <frame x="637" y="0" width="734" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -980,12 +1135,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22239748" sideWeight="0.50292826" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2917981" sideWeight="0.49707174" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29054055" sideWeight="0.49707174" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24889868" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25667655" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -996,6 +1150,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1039,7 +1194,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="ForCheck" />
     <MESSAGE value="TODO: Finish Student and Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO: Finish Student and Tests" />
+    <MESSAGE value="SPring" />
+    <option name="LAST_COMMIT_MESSAGE" value="SPring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1056,48 +1212,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Hierarchy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/LogManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar!/org/jboss/logging/Log4jLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar!/org/jboss/logging/Log4jLoggerProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar!/org/jboss/logging/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="1341" column="0" selection-start-line="1341" selection-start-column="0" selection-end-line="1341" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-entitymanager/5.0.3.Final/hibernate-entitymanager-5.0.3.Final.jar!/org/hibernate/jpa/HibernatePersistenceProvider.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1249,7 +1363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,9 +1370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2584">
           <caret line="161" column="77" selection-start-line="161" selection-start-column="77" selection-end-line="161" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,11 +1384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3960#3961#0" expanded="false" />
-            <element signature="e#3989#3990#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1286,7 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,9 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="153" column="25" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1304,9 +1405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1332,7 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,7 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,7 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1366,7 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="68" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1400,92 +1494,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resourсes/ioc/app-context.xsl">
+    <entry file="file://$PROJECT_DIR$/src/main/resourсes/ioc/app-context.xsl" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week8/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resourсes/ioc/app-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/GeneralService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/GeneralDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week8/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resourсes/ioc/app-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
+        <state relative-caret-position="184">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/GeneralService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week8/test/InitAnnotationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/SecondDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week8/ioc/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classwork_jpa_hibernate/service/AuthorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/classwork/TestAnnotXmlInitContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resourсes/ioc/app-xml-annot-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,17 +1,20 @@
 package week8.ioc;
 
-/**
- * Created by Котято on 02.11.2016.
- */
-public class GeneralDao {
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+
+@Component
+public class GeneralDao implements Dao {
+
+    @Value("Kolia")
     private String name;
     private int count;
     private double limit;
 
     public GeneralDao() {
     }
-
+    @Override
     public String data() {
         return name + " " + count + " " + limit;
     }
